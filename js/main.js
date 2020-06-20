@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Hi, I'm Tanli.", "你好，我叫探骊。", "Hola, me llamo Tanli.", "Hi, I'm Tanli"],
+      strings: ["Hi, I'm Tanli.", "Hi, I'm Tanli.", "Hi, I'm Tanli"],
       typeSpeed: 100,
       loop: false,
     });

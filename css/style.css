@@ -284,7 +284,7 @@ nav ul li a {
   width: 100%;
   height: auto;
   background: #f7f7f7;
-  padding-top: 190px;
+  padding-top: 150px;
 }
 
 #about .div-img-bg {
@@ -383,7 +383,7 @@ nav ul li a {
 #projects,  #projects-blog {
   height: auto;
   width: 100%;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
   position: relative;
 }
 
@@ -438,6 +438,31 @@ nav ul li a {
   font-size: 14px;
   line-height: 24px;
 }
+
+#oehu, #dplan {
+  width: 70%;
+  margin-left: 15%;
+}
+
+#dplan {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.row:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+/* .projects-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.projects-txt {
+  margin-left: 50px;
+} */
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer
