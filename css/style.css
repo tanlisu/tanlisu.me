@@ -399,6 +399,7 @@ nav ul li a {
 
 #projects .projects-block .projects-info {
   position: relative;
+  margin-bottom: 70px;
 }
 
 .projects-block .projects-info img {
