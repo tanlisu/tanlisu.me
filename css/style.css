@@ -214,7 +214,7 @@ nav ul li a {
 }
 
 .logo img {
-  width: 100px;
+  width: 90px;
   height: 50px;
 }
 
@@ -350,7 +350,7 @@ nav ul li a {
 }
 
 #photos .photos-list .nav li:hover, #photos .photos-list .nav li.filter-active  {
-  background: #f7f7f7;
+  /* background: #f7f7f7; */
   color: #b8a07e;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -505,12 +505,17 @@ form {
 
 label {
   margin-bottom: 10px;
-  color: black;
+  color: #292929;
 }
 
 .form-group input {
   height: 30px;
   width: 250px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  max-height: 300px;
 }
 
 #form-horizontal {
@@ -540,20 +545,21 @@ label {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 35px;
+  height: 30px;
   width: 100px;
   margin-top: -5px;
-  border: solid 1px black;
-  border-radius: 10px;
+  border: solid 1px #292929;
+  border-radius: 0px;
   background-color: white;
-  color: black;
+  color: #292929;
   font-size: 14px;
   text-transform: none;
 }
 
 .btn:hover {
+  cursor: pointer;
   border: 0px;
-  background-color: black;
+  background-color: #b8a07e;
 }
 
 /*-----------------------------------------------------------------------------------*/
